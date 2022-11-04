@@ -1,0 +1,11 @@
+{
+    "sumoConfigurationFile": "norte86.sumocfg",
+    "additionalVehicleTypeParameters": {
+        "Car": {
+            "carFollowModel": "Krauss"
+        },
+        "TrafficLightCar": {
+            "carFollowModel": "Krauss"
+        }
+    }
+}

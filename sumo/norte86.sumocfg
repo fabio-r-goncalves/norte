@@ -1,0 +1,15 @@
+<configuration>
+	<input>
+		<net-file value="norte86.net.xml" />
+		<additional-files value="norte86.add.xml" />
+	</input>
+	<output>
+		<statistic-output value="outputTEMPOS.xml"/>
+		<tripinfo-output value="outputCARROS.xml"/>
+	</output>
+	<time>
+		<begin value="0" />
+		<end value="10000" />
+	</time>
+	<gui-settings-file value="viewsettings.xml"/>
+</configuration>
