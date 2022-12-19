@@ -1,36 +1,10 @@
 <additionals>
-  <laneAreaDetector id="detector_0" lane="1067232684#0_0" pos="32" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_1" lane="1067232684#0_1" pos="32" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_2" lane="1067232684#0_2" pos="32" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_3" lane="521369414_0" pos="133" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_4" lane="521369414_1" pos="133" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_5" lane="135530867#1_0" pos="144" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_6" lane="135530867#1_1" pos="144" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_7" lane="157520966#2_0" pos="165" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_8" lane="157520966#2_1" pos="165" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_9" lane="157520966#2_2" pos="165" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_10" lane="1067232685_0" pos="33" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_11" lane="1067232685_1" pos="33" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_12" lane="604826209_0" pos="50" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_13" lane="604826209_1" pos="50" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_14" lane="303409704#0_0" pos="244" length="50"  freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_15" lane="303409704#0_1" pos="244" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_16" lane="521369415_0" pos="0" length="10" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_17" lane="521369415_1" pos="0" length="10" freq="100.00" file="detectors.txt" />
+  <laneAreaDetector id="GUIM_AV4_SUL_ENTRADA" lane="-1066387399#0_1" pos="0" length="50" freq="100.00" file="detectors.txt" />
+  <laneAreaDetector id="GUIM_AV4_SUL_SAIDA" lane="1066387399#0_1" pos="145" length="50" freq="100.00" file="detectors.txt" />
+  
 
-  <laneAreaDetector id="detector_18" lane="525352728_0" pos="0" length="20" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_19" lane="525352728_1" pos="0" length="20" freq="100.00" file="detectors.txt" />
-
-  <laneAreaDetector id="detector_20" lane="1067179857_0" pos="0" length="20" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_21" lane="1067179857_1" pos="0" length="20" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_22" lane="1067179857_2" pos="0" length="20" freq="100.00" file="detectors.txt" />
-
-  <laneAreaDetector id="detector_23" lane="211816963#0_0" pos="37" length="50" freq="100.00" file="detectors.txt" />
-
-  <laneAreaDetector id="detector_24" lane="24267056#1_0" pos="87" length="50" freq="100.00" file="detectors.txt" />
-
-  <laneAreaDetector id="detector_25" lane="25329179_0" pos="1" length="30" freq="100.00" file="detectors.txt" />
-
-  <laneAreaDetector id="detector_26" lane="161870607#0_0" pos="0" length="10" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="detector_27" lane="161870607#0_1" pos="0" length="10" freq="100.00" file="detectors.txt" />
+  <laneAreaDetector id="GUIM_LONDRES_SUL_1" lane="24266991_1" pos="0" length="50" freq="100.00" file="detectors.txt" />
+  <laneAreaDetector id="GUIM_LONDRES_SUL_2" lane="24266991_2" pos="0" length="50" freq="100.00" file="detectors.txt" />
+  <laneAreaDetector id="GUIMA_FAFE_NORTE_ENTRADA" lane="1118885051#0_0" pos="0" length="50" freq="100.00" file="detectors.txt" />
+  <laneAreaDetector id="GUIMA_FAFE_NORTE_SAIDA" lane="-1118885051#0_0" pos="122" length="50" freq="100.00" file="detectors.txt" />
 </additionals>
