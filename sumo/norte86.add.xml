@@ -1,10 +1,11 @@
 <additionals>
-  <laneAreaDetector id="GUIM_AV4_SUL_ENTRADA" lane="-1066387399#0_1" pos="0" length="50" freq="100.00" file="detectors.txt" />
+  <inductionLoop  id="GUIM_AV4_SUL_ENTRADA" lane="-1066387399#0_1" pos="0" length="50" freq="100.00" file="detectors.txt" />
   <laneAreaDetector id="GUIM_AV4_SUL_SAIDA" lane="1066387399#0_1" pos="145" length="50" freq="100.00" file="detectors.txt" />
   
 
   <laneAreaDetector id="GUIM_LONDRES_SUL_1" lane="24266991_1" pos="0" length="50" freq="100.00" file="detectors.txt" />
   <laneAreaDetector id="GUIM_LONDRES_SUL_2" lane="24266991_2" pos="0" length="50" freq="100.00" file="detectors.txt" />
-  <laneAreaDetector id="GUIMA_FAFE_NORTE_ENTRADA" lane="1118885051#0_0" pos="0" length="50" freq="100.00" file="detectors.txt" />
+  
+  <inductionLoop id="GUIMA_FAFE_NORTE_ENTRADA" lane="1118885051#0_0" pos="0" length="50" freq="100.00" file="detectors.txt" />
   <laneAreaDetector id="GUIMA_FAFE_NORTE_SAIDA" lane="-1118885051#0_0" pos="122" length="50" freq="100.00" file="detectors.txt" />
 </additionals>

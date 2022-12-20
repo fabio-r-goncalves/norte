@@ -11,6 +11,9 @@ import org.eclipse.mosaic.lib.util.scheduling.Event;
 import org.eclipse.mosaic.rti.TIME;
 
 public class TestTrafficManagementApp extends AbstractApplication<TrafficManagementCenterOperatingSystem> implements TrafficManagementCenterApplication {
+    private final int startTime = 250;
+    private double average_GUIM_AV4_SUL_ENTRADA = 0;
+    private double average_GUIMA_FAFE_NORTE_ENTRADA = 0;
 
     @Override
     public void onShutdown() {
@@ -32,8 +35,7 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
     public void processEvent(Event arg0) throws Exception {
         // TODO Auto-generated method stub
 
-        LaneAreaDetector areaDetector = getOperatingSystem().getLaneAreaDetector("detector_0");
-        System.out.println(areaDetector.getAmountOfVehiclesOnSegment());
+       
         
         
     }
@@ -42,16 +44,37 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
     public void onInductionLoopUpdated(Collection<InductionLoop> arg0) {
         // TODO Auto-generated method stub
         for (InductionLoop inductionLoop : arg0) {
-           // System.out.println("I am loop: " + inductionLoop.getId() + " passed vehicles " + inductionLoop.getAmountOfPassedVehicles() + " avg speed " + inductionLoop.getAverageSpeedMs() + " flow " + inductionLoop.getTrafficFlowVehPerHour());
+            if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){
+
+                if(inductionLoop.getId().equals("arg0")){
+                    if(average_GUIMA_FAFE_NORTE_ENTRADA > 0){
+                        average_GUIMA_FAFE_NORTE_ENTRADA = average_GUIMA_FAFE_NORTE_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
+                        average_GUIMA_FAFE_NORTE_ENTRADA = average_GUIMA_FAFE_NORTE_ENTRADA / 2;
+                    }
+                    else{
+                        average_GUIMA_FAFE_NORTE_ENTRADA = average_GUIMA_FAFE_NORTE_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
+                    }
+
+                }else{
+                
+                    if(average_GUIM_AV4_SUL_ENTRADA > 0){
+                        average_GUIM_AV4_SUL_ENTRADA = average_GUIM_AV4_SUL_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
+                        average_GUIM_AV4_SUL_ENTRADA = average_GUIM_AV4_SUL_ENTRADA / 2;
+                    }
+                    else{
+                        average_GUIM_AV4_SUL_ENTRADA = average_GUIM_AV4_SUL_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
+                    }
+                }
+                System.out.println("I am loop: " + inductionLoop.getId() + " flow " + inductionLoop.getTrafficFlowVehPerHour() + " average: "+average_GUIM_AV4_SUL_ENTRADA + " " + average_GUIMA_FAFE_NORTE_ENTRADA );
+            }
         }
     }
 
     @Override
     public void onLaneAreaDetectorUpdated(Collection<LaneAreaDetector> arg0) {
-        // TODO Auto-generated method stub
-        
-       
-        
+        for (LaneAreaDetector laneAreaDetector : arg0) {
+            System.out.println("I am a detector: " + laneAreaDetector.getId() + " " + laneAreaDetector.getMeanSpeed() + " " + laneAreaDetector.getTrafficDensity() + " " + laneAreaDetector.getAmountOfVehiclesOnSegment() + " " + getOperatingSystem().getSimulationTime() / TIME.SECOND);
+        }
     }
     
 }

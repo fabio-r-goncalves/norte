@@ -22,7 +22,8 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
 
     @Override
     public void onStartup() {
-        // TODO Auto-generated method stub
+        /* 
+        
         if(!getOperatingSystem().getId().equals("veh_1")){
             return;
         }
@@ -31,7 +32,6 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
         //System.out.println(getOperatingSystem().getTrafficLightGroup().getGroupId() + " now: " + currentTime + " phase: " + phaseDuration + " next: " + nextEventTime);
         System.out.println("activating");
         
-        //getOperatingSystem().activateVehicleSensors(2, SensorType.RADAR_FRONT);
 
         SimplePerceptionConfiguration configuration = new SimplePerceptionConfiguration(100, 500);
         
@@ -52,6 +52,7 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
         
         
         System.out.println(getOperatingSystem().getId());
+        */
     }
 
     @Override

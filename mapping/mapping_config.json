@@ -114,6 +114,16 @@
     "trafficLights": [
     ],
 	"tmcs": [
+        {
+            "name": "trafficman1",
+            "applications": [ 
+                "com.uminho.norte86.TestTrafficManagementApp" 
+            ],
+            "inductionLoops": [ "GUIM_AV4_SUL_ENTRADA", "GUIMA_FAFE_NORTE_ENTRADA" ],
+            "laneAreaDetectors": [  ],
+            "color": "green"
+            
+        }
 	],
     "config":{
         "adjustStartingTimes": true,
@@ -147,402 +157,90 @@
     "vehicles": [
         {
             "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "2",
-            "targetFlow": 850,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "3",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "4",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "7",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "9",
-            "targetFlow": 20,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "11",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "15",
-            "targetFlow": 400,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "340",
-            "targetFlow": 350,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "34",
-            "targetFlow": 900,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "43",
-            "targetFlow": 200,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "47",
-            "targetFlow": 350,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "50",
-            "targetFlow": 20,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "52",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "56",
-            "targetFlow": 70,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "59",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
             "lanes":[0],
-            "maxTime": 500,
-            "route": "73",
-            "targetFlow": 80,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "75",
-            "targetFlow": 25,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "79",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "98",
+            "maxTime": 2000,
+            "route": "81",
             "targetFlow": 200,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[0],
-            "maxTime": 500,
-            "route": "100",
-            "targetFlow": 80,
+            "maxTime": 2000,
+            "route": "83",
+            "targetFlow": 150,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[0],
-            "maxTime": 500,
-            "route": "113",
+            "maxTime": 2000,
+            "route": "90",
             "targetFlow": 90,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[0],
-            "maxTime": 500,
-            "route": "134",
-            "targetFlow": 80,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "146",
+            "maxTime": 2000,
+            "route": "91",
             "targetFlow": 90,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "159",
-            "targetFlow": 70,
+            "lanes":[0],
+            "maxTime": 2000,
+            "route": "96",
+            "targetFlow": 150,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[1],
-            "maxTime": 500,
+            "maxTime": 2000,
             "route": "161",
-            "targetFlow": 80,
+            "targetFlow": 155,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[1],
-            "maxTime": 500,
+            "maxTime": 2000,
             "route": "162",
-            "targetFlow": 80,
+            "targetFlow": 165,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[1],
-            "maxTime": 500,
-            "route": "173",
-            "targetFlow": 90,
+            "maxTime": 2000,
+            "route": "163",
+            "targetFlow": 35,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "186",
-            "targetFlow": 100,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "188",
-            "targetFlow": 40,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "191",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "192",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "193",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "205",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "209",
-            "targetFlow": 30,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "237",
-            "targetFlow": 80,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "240",
-            "targetFlow": 80,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "250",
+            "lanes":[1],
+            "maxTime": 2000,
+            "route": "164",
             "targetFlow": 50,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "267",
-            "targetFlow": 90,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "275",
-            "targetFlow": 80,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "281",
-            "targetFlow": 50,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "282",
-            "targetFlow": 80,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "332",
-            "targetFlow": 250,
+            "lanes":[1],
+            "maxTime": 2000,
+            "route": "165",
+            "targetFlow": 35,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[1],
-            "maxTime": 500,
-            "route": "288",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "293",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "296",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "304",
-            "targetFlow": 60,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "317",
-            "targetFlow": 100,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "319",
-            "targetFlow": 70,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[0],
-            "maxTime": 500,
-            "route": "323",
-            "targetFlow": 80,
-            "typeDistribution": "cityDistribution"
-        },
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 500,
-            "route": "336",
-            "targetFlow": 280,
+            "maxTime": 2000,
+            "route": "174",
+            "targetFlow": 75,
             "typeDistribution": "cityDistribution"
         }
     ]
