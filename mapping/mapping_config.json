@@ -3,7 +3,7 @@
         {
             "name": "Car",
             "applications": [
-                "com.uminho.norte86.TestVehicleApp"
+                "com.uminho.norte86.aaps.TestVehicleApp"
             ],
             "accel": 1.5,
             "decel": 4.5,
@@ -17,7 +17,7 @@
         {
             "name": "Car2",
             "applications": [
-                "com.uminho.norte86.TestVehicleApp"
+                "com.uminho.norte86.apps.TestVehicleApp"
             ],
             "accel": 1.5,
             "decel": 4.5,
@@ -31,7 +31,7 @@
         {
             "name": "Car3",
             "applications": [
-                "com.uminho.norte86.TestVehicleApp"
+                "com.uminho.norte86.apps.TestVehicleApp"
             ],
             "accel": 1.5,
             "decel": 4.5,
@@ -45,7 +45,7 @@
         {
             "name": "Car4",
             "applications": [
-                "com.uminho.norte86.TestVehicleApp"
+                "com.uminho.norte86.apps.TestVehicleApp"
             ],
             "accel": 1.5,
             "decel": 4.5,
@@ -59,7 +59,7 @@
         {
             "name": "Car5",
             "applications": [
-                "com.uminho.norte86.TestVehicleApp"
+                "com.uminho.norte86.apps.TestVehicleApp"
             ],
             "accel": 1.5,
             "decel": 4.5,
@@ -73,7 +73,7 @@
         {
             "name": "Car6",
             "applications": [
-                "com.uminho.norte86.TestVehicleApp"
+                "com.uminho.norte86.apps.TestVehicleApp"
             ],
             "accel": 1.5,
             "decel": 4.5,
@@ -87,7 +87,7 @@
         {
             "name": "Car7",
             "applications": [
-                "com.uminho.norte86.TestVehicleApp"
+                "com.uminho.norte86.apps.TestVehicleApp"
             ],
             "accel": 1.5,
             "decel": 4.5,
@@ -107,7 +107,7 @@
         {
             "name": "TrafficLight",
             "applications": [
-                "com.uminho.norte86.TestTrafficApp"
+                "com.uminho.norte86.apps.TestTrafficApp"
             ]
         }
     ],
@@ -117,7 +117,7 @@
         {
             "name": "trafficman1",
             "applications": [ 
-                "com.uminho.norte86.TestTrafficManagementApp" 
+                "com.uminho.norte86.apps.TestTrafficManagementApp" 
             ],
             "inductionLoops": [ "GUIM_AV4_SUL_ENTRADA", "GUIM_AV4_SUL_SAIDA", "GUIM_LONDRES_SUL_1", "GUIM_LONDRES_SUL_2", "GUIMA_FAFE_NORTE_ENTRADA", "GUIMA_FAFE_NORTE_SAIDA" ],
             "laneAreaDetectors": [  ],
@@ -133,15 +133,15 @@
     },
 	"typeDistributions": {
 		"cityDistribution" : [
-			{ "name": "Car", "weight": 0.2, "vehicleClass": "Car", "color": "#33ccff", "applications": ["com.uminho.norte86.TestVehicleApp"]  },
-			{ "name": "Bus", "weight": 0.13, "vehicleClass": "PublicTransportVehicle", "color": "#ffff00", "length": 12, "applications": ["com.uminho.norte86.TestVehicleApp"] },
-			{ "name": "HeavyGoods", "weight": 0.05, "vehicleClass": "HeavyGoodsVehicle", "color": "#ff9900", "length": 15, "applications": ["com.uminho.norte86.TestVehicleApp"] },
-			{ "name": "LightGoods", "weight": 0.1, "vehicleClass": "LightGoodsVehicle", "color": "#b35900", "length": 8, "applications": ["com.uminho.norte86.TestVehicleApp"] },
-			{ "name": "WorksVehicle", "weight": 0.1, "vehicleClass": "WorksVehicle", "color": "#9933ff", "applications": ["com.uminho.norte86.TestVehicleApp"] },
-			{ "name": "Taxi", "weight": 0.15, "vehicleClass": "Taxi", "color": "#ffff00", "applications": ["com.uminho.norte86.TestVehicleApp"] },
+			{ "name": "Car", "weight": 0.2, "vehicleClass": "Car", "color": "#33ccff", "applications": ["com.uminho.norte86.apps.TestVehicleApp"]  },
+			{ "name": "Bus", "weight": 0.13, "vehicleClass": "PublicTransportVehicle", "color": "#ffff00", "length": 12, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "HeavyGoods", "weight": 0.05, "vehicleClass": "HeavyGoodsVehicle", "color": "#ff9900", "length": 15, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "LightGoods", "weight": 0.1, "vehicleClass": "LightGoodsVehicle", "color": "#b35900", "length": 8, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "WorksVehicle", "weight": 0.1, "vehicleClass": "WorksVehicle", "color": "#9933ff", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "Taxi", "weight": 0.15, "vehicleClass": "Taxi", "color": "#ffff00", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
 			{ "name": "Bicycle", "weight": 0.07, "vehicleClass": "Bicycle", "color":"#00ffff" },
-			{ "name": "Motorcycle", "weight": 0.16, "vehicleClass": "Motorcycle", "color":"#00cc99", "applications": ["com.uminho.norte86.TestVehicleApp"] },
-			{ "name": "HighOccupancyVehicle", "weight": 0.06, "vehicleClass": "HighOccupancyVehicle", "color": "#00cc66", "applications": ["com.uminho.norte86.TestVehicleApp"] }
+			{ "name": "Motorcycle", "weight": 0.16, "vehicleClass": "Motorcycle", "color":"#00cc99", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "HighOccupancyVehicle", "weight": 0.06, "vehicleClass": "HighOccupancyVehicle", "color": "#00cc66", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] }
 		],
 		"highwayDistribution" : [
 			{ "name": "Car", "weight": 0.4, "vehicleClass": "Car", "color": "#33ccff" },
