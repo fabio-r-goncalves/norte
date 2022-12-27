@@ -1,7 +1,7 @@
 <configuration>
 	<input>
 		<net-file value="norte86.net.xml" />
-		<route-files value="norte86.rou.xml,norte86.pedestrian.rou.xml" />
+		
 		
 		<additional-files value="norte86.add.xml" />
 	</input>
