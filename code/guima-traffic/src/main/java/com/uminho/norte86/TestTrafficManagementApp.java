@@ -11,9 +11,7 @@ import org.eclipse.mosaic.lib.util.scheduling.Event;
 import org.eclipse.mosaic.rti.TIME;
 
 public class TestTrafficManagementApp extends AbstractApplication<TrafficManagementCenterOperatingSystem> implements TrafficManagementCenterApplication {
-    private final int startTime = 250;
-    private double average_GUIM_AV4_SUL_ENTRADA = 0;
-    private double average_GUIMA_FAFE_NORTE_ENTRADA = 0;
+    private final int startTime = 400;
 
     @Override
     public void onShutdown() {
@@ -42,31 +40,12 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
 
     @Override
     public void onInductionLoopUpdated(Collection<InductionLoop> arg0) {
-        // TODO Auto-generated method stub
-        for (InductionLoop inductionLoop : arg0) {
-            if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){
-
-                if(inductionLoop.getId().equals("arg0")){
-                    if(average_GUIMA_FAFE_NORTE_ENTRADA > 0){
-                        average_GUIMA_FAFE_NORTE_ENTRADA = average_GUIMA_FAFE_NORTE_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
-                        average_GUIMA_FAFE_NORTE_ENTRADA = average_GUIMA_FAFE_NORTE_ENTRADA / 2;
-                    }
-                    else{
-                        average_GUIMA_FAFE_NORTE_ENTRADA = average_GUIMA_FAFE_NORTE_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
-                    }
-
-                }else{
-                
-                    if(average_GUIM_AV4_SUL_ENTRADA > 0){
-                        average_GUIM_AV4_SUL_ENTRADA = average_GUIM_AV4_SUL_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
-                        average_GUIM_AV4_SUL_ENTRADA = average_GUIM_AV4_SUL_ENTRADA / 2;
-                    }
-                    else{
-                        average_GUIM_AV4_SUL_ENTRADA = average_GUIM_AV4_SUL_ENTRADA + inductionLoop.getTrafficFlowVehPerHour();
-                    }
-                }
-                System.out.println("I am loop: " + inductionLoop.getId() + " flow " + inductionLoop.getTrafficFlowVehPerHour() + " average: "+average_GUIM_AV4_SUL_ENTRADA + " " + average_GUIMA_FAFE_NORTE_ENTRADA );
+        if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){   
+            StringBuffer sb = new StringBuffer();
+            for (InductionLoop inductionLoop : arg0) {
+                sb.append(inductionLoop.getId() + ":\t" + inductionLoop.getTrafficFlowVehPerHour()+"\t-\t");
             }
+            System.out.println(sb.toString());
         }
     }
 
