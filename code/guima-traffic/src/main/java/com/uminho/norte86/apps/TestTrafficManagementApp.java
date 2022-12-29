@@ -40,6 +40,7 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
 
     @Override
     public void onInductionLoopUpdated(Collection<InductionLoop> arg0) {
+        /* 
         if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){   
             StringBuffer sb = new StringBuffer();
             for (InductionLoop inductionLoop : arg0) {
@@ -47,13 +48,17 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
             }
             System.out.println(sb.toString());
         }
+        */
     }
 
     @Override
     public void onLaneAreaDetectorUpdated(Collection<LaneAreaDetector> arg0) {
+        /* 
         for (LaneAreaDetector laneAreaDetector : arg0) {
             System.out.println("I am a detector: " + laneAreaDetector.getId() + " " + laneAreaDetector.getMeanSpeed() + " " + laneAreaDetector.getTrafficDensity() + " " + laneAreaDetector.getAmountOfVehiclesOnSegment() + " " + getOperatingSystem().getSimulationTime() / TIME.SECOND);
         }
+
+        */
     }
     
 }
