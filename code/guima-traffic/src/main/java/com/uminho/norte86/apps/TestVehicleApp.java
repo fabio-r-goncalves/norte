@@ -48,7 +48,7 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
             dataStore.addVehicleSimData(data, getOperatingSystem().getId());
         }
 
-        if(getOperatingSystem().getSimulationTime() >= Long.parseLong("1999000000000")){
+        if(getOperatingSystem().getSimulationTime() >= Long.parseLong("4100000000000")){
             if(!dataStore.isStored()){
                 dataStore.setStored(true);
                 double fuel = 0;
