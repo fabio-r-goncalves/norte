@@ -22,6 +22,8 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
 
     @Override
     public void onShutdown() {
+        
+
         try {
             FileWriter fileWriter = FileWriter.getInstance();
             fileWriter.writeToFileVehicle(getOperatingSystem().getId() + ","
@@ -42,15 +44,13 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
         }
 
         VehicleSimDataStore dataStore = VehicleSimDataStore.getInstance();
-        VehicleSimData data = new VehicleSimData();
-        if((getOperatingSystem().getNavigationModule().getCurrentRoute().getLength() - (getOperatingSystem().getNavigationModule().getCurrentRoute().getLength() / 10)) <= getOperatingSystem().getVehicleData().getDistanceDriven()){
-            data.vehicleDatatoSimData(getOperatingSystem().getVehicleData().getVehicleEmissions(), stop_time, getOperatingSystem().getVehicleData().getVehicleConsumptions().getAllConsumptions().getFuel());
-            dataStore.addVehicleSimData(data, getOperatingSystem().getId());
-        }
-
+        
+        
         if(getOperatingSystem().getSimulationTime() >= Long.parseLong("4100000000000")){
             if(!dataStore.isStored()){
                 dataStore.setStored(true);
+                
+
                 double fuel = 0;
                 double co = 0;
                 double co2 = 0;
@@ -102,6 +102,8 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
 
     @Override
     public void onStartup() {
+        stop_time = -1;
+        stopped_time = 0;
         /* 
         
         if(!getOperatingSystem().getId().equals("veh_1")){
@@ -142,14 +144,27 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
 
     @Override
     public void onVehicleUpdated(VehicleData arg0, VehicleData arg1) {
+        
         if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){   
-            if(getOperatingSystem().getVehicleData().getSpeed() == (double)0){
+            if(getOperatingSystem().getVehicleData().getSpeed() == (double)0.0){
                 if(stop_time == -1){
                     stop_time = getOperatingSystem().getSimulationTime();
-                }else{
-                    stopped_time = stopped_time + getOperatingSystem().getSimulationTime() - stop_time;
-                    stop_time = -1;
                 }
+                
+            }else {
+                stop_time = -1;
+            }
+
+            if(stop_time != -1){
+                stopped_time = stopped_time + getOperatingSystem().getSimulationTime() - stop_time;
+                stop_time = getOperatingSystem().getSimulationTime();
+                
+            }
+            VehicleSimDataStore dataStore = VehicleSimDataStore.getInstance();
+            VehicleSimData data = new VehicleSimData();
+            if((getOperatingSystem().getNavigationModule().getCurrentRoute().getLength() - (getOperatingSystem().getNavigationModule().getCurrentRoute().getLength() / 10)) <= getOperatingSystem().getVehicleData().getDistanceDriven()){
+                data.vehicleDatatoSimData(getOperatingSystem().getVehicleData().getVehicleEmissions(), stopped_time, getOperatingSystem().getVehicleData().getVehicleConsumptions().getAllConsumptions().getFuel());
+                dataStore.addVehicleSimData(data, getOperatingSystem().getId());
             }
         }
         

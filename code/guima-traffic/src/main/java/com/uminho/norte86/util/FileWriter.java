@@ -41,7 +41,6 @@ public class FileWriter {
     }
 
     public void writeToFileAverage(String csvLine) throws IOException{
-        System.out.println(csvLine);
         printWriterAverage.write(csvLine + "\n");
         printWriterAverage.flush();
     }
