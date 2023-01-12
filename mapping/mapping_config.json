@@ -133,14 +133,14 @@
     },
 	"typeDistributions": {
 		"cityDistribution" : [
-			{ "name": "Car", "weight": 0.2, "vehicleClass": "Car", "color": "#33ccff", "applications": ["com.uminho.norte86.apps.TestVehicleApp"]  },
-			{ "name": "Bus", "weight": 0.13, "vehicleClass": "PublicTransportVehicle", "color": "#ffff00", "length": 12, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
-			{ "name": "HeavyGoods", "weight": 0.05, "vehicleClass": "HeavyGoodsVehicle", "color": "#ff9900", "length": 15, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "Car", "weight": 0.40, "vehicleClass": "Car", "color": "#33ccff", "applications": ["com.uminho.norte86.apps.TestVehicleApp"]  },
+			{ "name": "Bus", "weight": 0.0, "vehicleClass": "PublicTransportVehicle", "color": "#ffff00", "length": 12, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "HeavyGoods", "weight": 0.01, "vehicleClass": "HeavyGoodsVehicle", "color": "#ff9900", "length": 15, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
 			{ "name": "LightGoods", "weight": 0.1, "vehicleClass": "LightGoodsVehicle", "color": "#b35900", "length": 8, "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
 			{ "name": "WorksVehicle", "weight": 0.1, "vehicleClass": "WorksVehicle", "color": "#9933ff", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
-			{ "name": "Taxi", "weight": 0.15, "vehicleClass": "Taxi", "color": "#ffff00", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "Taxi", "weight": 0.19, "vehicleClass": "Taxi", "color": "#ffff00", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
 			{ "name": "Bicycle", "weight": 0.07, "vehicleClass": "Bicycle", "color":"#00ffff" },
-			{ "name": "Motorcycle", "weight": 0.16, "vehicleClass": "Motorcycle", "color":"#00cc99", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
+			{ "name": "Motorcycle", "weight": 0.19, "vehicleClass": "Motorcycle", "color":"#00cc99", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] },
 			{ "name": "HighOccupancyVehicle", "weight": 0.06, "vehicleClass": "HighOccupancyVehicle", "color": "#00cc66", "applications": ["com.uminho.norte86.apps.TestVehicleApp"] }
 		],
 		"highwayDistribution" : [
@@ -160,7 +160,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "1",
-            "targetFlow": 140,
+            "targetFlow": 340,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -168,7 +168,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "2",
-            "targetFlow": 120,
+            "targetFlow": 90,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -176,7 +176,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "3",
-            "targetFlow": 120,
+            "targetFlow": 50,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -200,7 +200,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "6",
-            "targetFlow": 180,
+            "targetFlow": 270,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -216,7 +216,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "8",
-            "targetFlow": 150,
+            "targetFlow": 120,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -224,7 +224,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "9",
-            "targetFlow": 150,
+            "targetFlow": 90,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -232,6 +232,14 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "10",
+            "targetFlow": 230,
+            "typeDistribution": "cityDistribution"
+        },
+        {
+            "startingTime": 1.0,
+            "lanes":[0],
+            "maxTime": 4500,
+            "route": "11",
             "targetFlow": 100,
             "typeDistribution": "cityDistribution"
         },
@@ -272,7 +280,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "17",
-            "targetFlow": 80,
+            "targetFlow": 180,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -296,7 +304,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "13",
-            "targetFlow": 220,
+            "targetFlow": 350,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -304,7 +312,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "21",
-            "targetFlow": 180,
+            "targetFlow": 250,
             "typeDistribution": "cityDistribution"
         }
     ]

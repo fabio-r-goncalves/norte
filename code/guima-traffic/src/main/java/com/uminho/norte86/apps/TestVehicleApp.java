@@ -47,6 +47,7 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
         
         
         if(getOperatingSystem().getSimulationTime() >= Long.parseLong("4100000000000")){
+        //if(getOperatingSystem().getSimulationTime() >= Long.parseLong("500000000000")){    
             if(!dataStore.isStored()){
                 dataStore.setStored(true);
                 
