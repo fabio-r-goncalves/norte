@@ -40,15 +40,15 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
 
     @Override
     public void onInductionLoopUpdated(Collection<InductionLoop> arg0) {
-        /*
+        /* 
         if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){   
             StringBuffer sb = new StringBuffer();
             for (InductionLoop inductionLoop : arg0) {
                 sb.append(inductionLoop.getId() + ":\t" + inductionLoop.getTrafficFlowVehPerHour()+"\t-\t");
             }
             System.out.println(sb.toString());
-        }*/
-        
+        }
+        */
     }
 
     @Override

@@ -8,4 +8,24 @@
   
   <inductionLoop id="GUIMA_FAFE_NORTE_ENTRADA" lane="1118885051#0_0" pos="5" length="5" freq="100.00" file="detectors.txt" />
   <inductionLoop id="GUIMA_FAFE_NORTE_SAIDA" lane="-1118885051#0_0" pos="166" length="5" freq="100.00" file="detectors.txt" />
+
+  <inductionLoop id="ALAMEDA_1" lane="1118885065_1" pos="25" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="ALAMEDA_2" lane="1118885065_2" pos="25" length="5" freq="100.00" file="detectors.txt" />
+
+  <inductionLoop id="ALAMEDA_3" lane="-1118885065_1" pos="20" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="ALAMEDA_4" lane="-1118885065_2" pos="20" length="5" freq="100.00" file="detectors.txt" />
+
+  <inductionLoop id="ALAMEDA_5" lane="1117159561_1" pos="95" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="ALAMEDA_6" lane="1117159561_2" pos="95" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="ALAMEDA_7" lane="303409704#2_2" pos="165" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="ALAMEDA_8" lane="303409704#2_1" pos="165" length="5" freq="100.00" file="detectors.txt" />
+
+  <inductionLoop id="PASCOAIS_1" lane="521369420#0_1" pos="70" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="PASCOAIS_2" lane="-211570877_1" pos="75" length="5" freq="100.00" file="detectors.txt" />
+
+
+  <inductionLoop id="MARGARIDE_1" lane="157520966#4_1" pos="150" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="MARGARIDE_2" lane="157520966#4_2" pos="150" length="5" freq="100.00" file="detectors.txt" />
+  <inductionLoop id="MARGARIDE_3" lane="157520966#4_3" pos="150" length="5" freq="100.00" file="detectors.txt" />
+
 </additionals>
