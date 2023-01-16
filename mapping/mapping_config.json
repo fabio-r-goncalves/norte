@@ -119,7 +119,27 @@
             "applications": [ 
                 "com.uminho.norte86.apps.TestTrafficManagementApp" 
             ],
-            "inductionLoops": [ "GUIM_AV4_SUL_ENTRADA", "GUIM_AV4_SUL_SAIDA", "GUIM_LONDRES_SUL_1", "GUIM_LONDRES_SUL_2", "GUIMA_FAFE_NORTE_ENTRADA", "GUIMA_FAFE_NORTE_SAIDA" ],
+            "inductionLoops": [ 
+                "GUIM_AV4_SUL_ENTRADA", 
+                "GUIM_AV4_SUL_SAIDA", 
+                "GUIM_LONDRES_SUL_1", 
+                "GUIM_LONDRES_SUL_2", 
+                "GUIMA_FAFE_NORTE_ENTRADA", 
+                "GUIMA_FAFE_NORTE_SAIDA",
+                "GUIMA_BRAGA_1",
+                "GUIMA_BRAGA_2",
+                "BRAGA_GUIMA_1",
+                "BRAGA_GUIMA_2",
+                "ALAMEDA_E_D_1",
+                "ALAMEDA_E_D_2",
+                "ALAMEDA_D_E_1",
+                "ALAMEDA_D_E_2",
+                "PASCOAIS_1",
+                "PASCOAIS_2",
+                "MARGARIDE_1",
+                "MARGARIDE_2",
+                "MARGARIDE_3" 
+            ],
             "laneAreaDetectors": [  ],
             "color": "green"
             
