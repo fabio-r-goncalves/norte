@@ -1,4 +1,4 @@
  <viewsettings>
         <delay value="50"/>
-	<decal file="/home/eclipse-mosaic/scenarios/Norte86-aux/sumo/guimaraes.png" centerX="1245.04" centerY="865.27" centerZ="0.00" width="3050.00" height="1990.00" altitude="0.00" rotation="0.00" tilt="0.00" roll="0.00" layer="0.00" screenRelative="0"/>
+	<decal file="/home/mosaic/scenarios/norte-86/sumo/guimaraes.png" centerX="1245.04" centerY="865.27" centerZ="0.00" width="3050.00" height="1990.00" altitude="0.00" rotation="0.00" tilt="0.00" roll="0.00" layer="0.00" screenRelative="0"/>
  </viewsettings>
