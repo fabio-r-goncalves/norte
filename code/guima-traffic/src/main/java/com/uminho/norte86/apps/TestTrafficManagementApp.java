@@ -24,7 +24,6 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
         // TODO Auto-generated method stub  
         long currentTime = getOs().getSimulationTime();
         long nextEventTime = currentTime + 1 * TIME.SECOND;
-        //System.out.println(getOperatingSystem().getTrafficLightGroup().getGroupId() + " now: " + currentTime + " phase: " + phaseDuration + " next: " + nextEventTime);
         final Event nextEvent = new Event(nextEventTime, this);
         getOs().getEventManager().addEvent(nextEvent);
     }
@@ -40,15 +39,14 @@ public class TestTrafficManagementApp extends AbstractApplication<TrafficManagem
 
     @Override
     public void onInductionLoopUpdated(Collection<InductionLoop> arg0) {
-        /* 
+        
         if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){   
             StringBuffer sb = new StringBuffer();
             for (InductionLoop inductionLoop : arg0) {
-                sb.append(inductionLoop.getId() + ":\t" + inductionLoop.getTrafficFlowVehPerHour()+"\t-\t");
+                sb.append(inductionLoop.getId() + ":\t" + inductionLoop.getTrafficFlowVehPerHour()+"\n");
             }
             System.out.println(sb.toString());
         }
-        */
     }
 
     @Override
