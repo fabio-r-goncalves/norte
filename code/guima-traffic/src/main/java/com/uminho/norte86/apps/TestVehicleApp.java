@@ -50,8 +50,6 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
         //if(getOperatingSystem().getSimulationTime() >= Long.parseLong("500000000000")){    
             if(!dataStore.isStored()){
                 dataStore.setStored(true);
-                
-
                 double fuel = 0;
                 double co = 0;
                 double co2 = 0;

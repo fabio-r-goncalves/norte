@@ -3,5 +3,6 @@
 /home/fbgoncalves/code/mosaic/scenarios/norte-86/code/guima-traffic/src/main/java/com/uminho/norte86/util/VehicleSimDataStore.java
 /home/fbgoncalves/code/mosaic/scenarios/norte-86/code/guima-traffic/src/main/java/com/uminho/norte86/util/VehicleSimData.java
 /home/fbgoncalves/code/mosaic/scenarios/norte-86/code/guima-traffic/src/main/java/com/uminho/norte86/apps/TestTrafficManagementApp.java
+/home/fbgoncalves/code/mosaic/scenarios/norte-86/code/guima-traffic/src/main/java/com/uminho/norte86/conf_reader/TrafficManagementConfigReader.java
 /home/fbgoncalves/code/mosaic/scenarios/norte-86/code/guima-traffic/src/main/java/com/uminho/norte86/apps/TestTrafficApp.java
 /home/fbgoncalves/code/mosaic/scenarios/norte-86/code/guima-traffic/src/main/java/com/uminho/norte86/apps/TestVehicleApp.java
