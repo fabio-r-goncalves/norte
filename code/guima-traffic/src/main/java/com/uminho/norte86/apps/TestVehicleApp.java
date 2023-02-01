@@ -50,8 +50,6 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
         //if(getOperatingSystem().getSimulationTime() >= Long.parseLong("500000000000")){    
             if(!dataStore.isStored()){
                 dataStore.setStored(true);
-                
-
                 double fuel = 0;
                 double co = 0;
                 double co2 = 0;
@@ -105,37 +103,6 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
     public void onStartup() {
         stop_time = -1;
         stopped_time = 0;
-        /* 
-        
-        if(!getOperatingSystem().getId().equals("veh_1")){
-            return;
-        }
-        long currentTime = getOs().getSimulationTime();
-        long nextEventTime = currentTime + 1 * TIME.SECOND;
-        //System.out.println(getOperatingSystem().getTrafficLightGroup().getGroupId() + " now: " + currentTime + " phase: " + phaseDuration + " next: " + nextEventTime);
-        System.out.println("activating");
-        
-
-        SimplePerceptionConfiguration configuration = new SimplePerceptionConfiguration(100, 500);
-        
-        getOperatingSystem().getPerceptionModule().enable(configuration);
-
-        System.out.println("enable sensors " + getOperatingSystem().getVehicleParameters().getInitialVehicleType());
-
-        SensorType sensorType = VehicleSensorActivation.SensorType.LIDAR;
-        SensorType sensorTypeFront = VehicleSensorActivation.SensorType.RADAR_REAR;
-        VehicleSensorActivation activation = new VehicleSensorActivation(10, "veh_1", 10, new SensorType[]{SensorType.LIDAR});
-                
-        //getOperatingSystem().activateVehicleSensors(2, sensorType);
-        System.out.println("done");
-        getOperatingSystem().activateVehicleSensors(2, activation.getSensorTypes());
-        System.out.println("done2");
-        final Event nextEvent = new Event(nextEventTime, this);
-        getOs().getEventManager().addEvent(nextEvent);
-        
-        
-        System.out.println(getOperatingSystem().getId());
-        */
     }
 
     @Override
