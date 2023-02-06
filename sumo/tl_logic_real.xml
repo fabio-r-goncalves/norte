@@ -31,10 +31,10 @@
         <phase duration="3"  state="rrr"/>
     </tlLogic>
     <tlLogic id="GS_485963521" type="static" programID="5" offset="0">
-        <phase duration="20" state="GrrrrG"/>
+        <phase duration="15" state="GrrrrG"/>
         <phase duration="3"  state="yrrrrG"/>
         <phase duration="3"  state="rrrrrr"/>
-        <phase duration="20" state="rGGrrr"/>
+        <phase duration="30" state="rGGrrr"/>
         <phase duration="3"  state="ryyrrr"/>
         <phase duration="3"  state="rrrrrr"/>
         <phase duration="12" state="rrrGGG"/>
