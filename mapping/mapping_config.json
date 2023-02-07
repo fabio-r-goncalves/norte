@@ -180,7 +180,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "26",
-            "targetFlow": 250,
+            "targetFlow": 252,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -220,7 +220,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "6",
-            "targetFlow": 175,
+            "targetFlow": 150,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -228,7 +228,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "14",
-            "targetFlow": 5,
+            "targetFlow": 25,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -253,7 +253,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "8",
-            "targetFlow": 180,
+            "targetFlow": 220,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -261,7 +261,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "9",
-            "targetFlow": 120,
+            "targetFlow": 110,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -293,7 +293,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "11",
-            "targetFlow": 180,
+            "targetFlow": 230,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -301,7 +301,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "12",
-            "targetFlow": 80,
+            "targetFlow": 105,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -309,7 +309,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "13",
-            "targetFlow": 140,
+            "targetFlow": 150,
             "typeDistribution": "cityDistribution"
         },
         {
