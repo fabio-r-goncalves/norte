@@ -180,7 +180,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "26",
-            "targetFlow": 215,
+            "targetFlow": 250,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -188,7 +188,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "4",
-            "targetFlow": 50,
+            "targetFlow": 20,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -245,7 +245,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "7",
-            "targetFlow": 60,
+            "targetFlow": 0,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -253,7 +253,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "8",
-            "targetFlow": 150,
+            "targetFlow": 180,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -261,15 +261,15 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "9",
-            "targetFlow": 90,
+            "targetFlow": 120,
             "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
             "lanes":[0],
             "maxTime": 4500,
-            "route": "1",
-            "targetFlow": 200,
+            "route": "27",
+            "targetFlow": 235,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -293,7 +293,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "11",
-            "targetFlow": 150,
+            "targetFlow": 180,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -309,7 +309,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "13",
-            "targetFlow": 100,
+            "targetFlow": 140,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -325,7 +325,7 @@
             "lanes":[1],
             "maxTime": 4500,
             "route": "17",
-            "targetFlow": 180,
+            "targetFlow": 160,
             "typeDistribution": "cityDistribution"
         },
         {
@@ -333,7 +333,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "19",
-            "targetFlow": 150,
+            "targetFlow": 200,
             "typeDistribution": "cityDistribution"
         },
         {
