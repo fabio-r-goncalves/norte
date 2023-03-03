@@ -57,6 +57,7 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                 double nox = 0;
                 double pmx = 0;
                 double stopedTime = 0;
+                double stopedTimeMax = 0;
                 
                 HashMap<String, VehicleSimData> simDataMap = dataStore.getInstance().getVehicleSimData();
                 for (Map.Entry<String, VehicleSimData> entry: simDataMap.entrySet()) {
@@ -67,6 +68,9 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                     nox = entry.getValue().getNox() + nox;
                     pmx = entry.getValue().getPmx() + pmx;
                     stopedTime = entry.getValue().getStopTime() + stopedTime;
+                    if(stopedTime > stopedTimeMax){
+                        stopedTimeMax = stopedTime;
+                    }
                     
                 }
 
@@ -89,7 +93,9 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                                         hc  + "," +
                                         nox  + "," +
                                         pmx  + "," +
-                                        stopedTime);
+                                        stopedTime + "," +
+                                        stopedTimeMax
+                                        );
                 } catch (IOException e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
