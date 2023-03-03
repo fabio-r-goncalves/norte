@@ -301,7 +301,7 @@
             "lanes":[0],
             "maxTime": 4500,
             "route": "12",
-            "targetFlow": 105,
+            "targetFlow": 175,
             "typeDistribution": "cityDistribution"
         },
         {
