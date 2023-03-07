@@ -68,8 +68,8 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                     nox = entry.getValue().getNox() + nox;
                     pmx = entry.getValue().getPmx() + pmx;
                     stopedTime = entry.getValue().getStopTime() + stopedTime;
-                    if(stopedTime > stopedTimeMax){
-                        stopedTimeMax = stopedTime;
+                    if(entry.getValue().getStopTime() > stopedTimeMax){
+                        stopedTimeMax = entry.getValue().getStopTime();
                     }
                     
                 }
