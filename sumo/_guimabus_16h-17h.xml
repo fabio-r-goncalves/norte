@@ -1,0 +1,462 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+	<busStop id="715" lane="24267085_0" startPos="60" endPos="70" lines="1"/>
+    <busStop id="769" lane="450682082_0" startPos="35" endPos="45" lines="1"/>
+    <busStop id="912" lane="520281211#0_1" startPos="30" endPos="40" lines="1"/>
+    <busStop id="794" lane="24267122#1_1" startPos="35" endPos="45" lines="1"/>
+    <busStop id="854" lane="24267122#1_0" startPos="15" endPos="25" lines="1"/>
+    <busStop id="58" lane="-1067179855_0" startPos="45" endPos="55" lines="1"/>
+	<busStop id="1208" lane="1066387399#0_1" startPos="20" endPos="30" lines="1"/>
+	<busStop id="136" lane="135000702_1" startPos="55" endPos="65" lines="1"/>
+	<busStop id="453" lane="104203803_0" startPos="80" endPos="90" lines="1"/>
+	<busStop id="476" lane="41779526_1" startPos="85" endPos="95" lines="1"/>
+	<busStop id="246" lane="1066387386_1" startPos="5" endPos="15" lines="1"/>
+	<busStop id="1741" lane="-135000604#0_1" startPos="20" endPos="30" lines="1"/>
+	<busStop id="1742" lane="135000604#1_1" startPos="10" endPos="20" lines="1"/>
+	<busStop id="1342" lane="41736416#2_1" startPos="90" endPos="100" lines="1"/>
+	<busStop id="596" lane="161870605#0_1" startPos="20" endPos="30" lines="1"/>
+	<busStop id="756" lane="1067232685#0_1" startPos="40" endPos="50" lines="1"/>
+	<busStop id="51" lane="157520966#4_1" startPos="140" endPos="150" lines="1"/>
+	<busStop id="999" lane="521369414_1" startPos="60" endPos="70" lines="1"/>
+	<busStop id="833" lane="521369414_1" startPos="40" endPos="50" lines="1"/>
+	<busStop id="770" lane="521369414_1" startPos="20" endPos="30" lines="1"/>
+	<busStop id="1336" lane="303409704#2_1" startPos="190" endPos="200" lines="1"/>
+	<busStop id="900" lane="1117159561_1" startPos="30" endPos="40" lines="1"/>
+	<busStop id="618" lane="1110251952#0_1" startPos="140" endPos="150" lines="1"/>
+	<busStop id="801" lane="1118885077_1" startPos="10" endPos="20" lines="1"/>
+	<busStop id="843" lane="521377144_1" startPos="105" endPos="115" lines="1"/>
+	<busStop id="1135" lane="172903757_0" startPos="150" endPos="160" lines="1"/>
+	<busStop id="1088" lane="1118885045_0" startPos="10" endPos="20" lines="1"/>
+	<busStop id="1185" lane="1118930500#1_1" startPos="20" endPos="30" lines="1"/>
+	<busStop id="132" lane="24267161_1" startPos="65" endPos="75" lines="1"/>
+	<busStop id="1525" lane="-1118885067_1" startPos="20" endPos="30" lines="1"/>
+	<busStop id="635" lane="1118885067_1" startPos="10" endPos="20" lines="1"/>
+	<busStop id="52" lane="-20899781_1" startPos="15" endPos="25" lines="1"/>
+	<busStop id="710" lane="-211570877_1" startPos="30" endPos="40" lines="1"/>
+	<busStop id="1705" lane="521369420#0_1" startPos="100" endPos="110" lines="1"/>
+	<busStop id="698" lane="40284971_1" startPos="20" endPos="30" lines="1"/>
+	<busStop id="685" lane="211743270#1_0" startPos="30" endPos="40" lines="1"/>
+	<busStop id="686" lane="-211743270#1_1" startPos="10" endPos="20" lines="1"/>
+	<busStop id="1743" lane="32501221#0_0" startPos="30" endPos="40" lines="1"/>
+	<busStop id="1744" lane="-32501221#0_0" startPos="30" endPos="40" lines="1"/>
+	<busStop id="474" lane="1118885051#0_0" startPos="50" endPos="60" lines="1"/>
+	<busStop id="416" lane="-1118885051#0_0" startPos="110" endPos="120" lines="1"/>
+	<busStop id="624" lane="104203828_1" startPos="65" endPos="75" lines="1"/>
+	<busStop id="1337" lane="32501101#2_1" startPos="10" endPos="20" lines="1"/>
+	<busStop id="811" lane="104203834_0" startPos="60" endPos="70" lines="1"/>
+	<busStop id="749" lane="41779527#0_0" startPos="60" endPos="70" lines="1"/>
+	<busStop id="1133" lane="41779527#2_0" startPos="160" endPos="170" lines="1"/>
+	<busStop id="128" lane="-1118885050#2_1" startPos="10" endPos="20" lines="1"/>
+	<busStop id="554" lane="157520966#2_1" startPos="30" endPos="40" lines="1"/>
+	<busStop id="1" lane="-167515245_0" startPos="20" endPos="30" lines="1"/>
+	<busStop id="148" lane="130673481#2_0" startPos="80" endPos="90" lines="1"/>
+	<busStop id="2" lane="518870787_0" startPos="190" endPos="200" lines="1"/>
+	<busStop id="539" lane="518870778_1" startPos="40" endPos="50" lines="1"/>
+	<busStop id="69" lane="303409704#2_1" startPos="10" endPos="20" lines="1"/>
+	<busStop id="1244" lane="1117159561_1" startPos="210" endPos="220" lines="1"/>
+	<busStop id="497" lane="1066387399#3_1" startPos="60" endPos="70" lines="1"/>
+	<busStop id="498" lane="-1066387399#3_1" startPos="60" endPos="70" lines="1"/>
+	<busStop id="852" lane="161871533#0_0" startPos="110" endPos="120" lines="1"/>
+	<busStop id="1712" lane="161871532_0" startPos="10" endPos="20" lines="1"/>	
+	<busStop id="328" lane="-523381485#0_0" startPos="50" endPos="60" lines="1"/>	
+	<busStop id="271" lane="167515248_0" startPos="50" endPos="60" lines="1"/>	
+	<busStop id="555" lane="1118885031#0_0" startPos="30" endPos="40" lines="1"/>
+	<busStop id="494" lane="-1118885031#0_0" startPos="30" endPos="40" lines="1"/>
+	<busStop id="677" lane="-167512493_0" startPos="270" endPos="280" lines="1"/>
+	<busStop id="613" lane="167512493_0" startPos="5" endPos="15" lines="1"/>	
+	<busStop id="1711" lane="1055037545#0_0" startPos="20" endPos="30" lines="1"/>
+	
+	<vType id="BUS" vClass="bus" accel="1.2" decel="4" sigma="0" length="12" minGap="2.5" maxSpeed="85" color="green" guiShape="bus"/>
+
+	<vehicle id="1_linha003" type="BUS" depart="1400">
+        <route edges="-1118885050#3 -1118885050#2 -1118885050#1 -1118885050#0 32501221#0 32501221#1 -135000273 32501228#0 32501228#1 32501228#2 32501228#3 1066387382#0 135000604#0 135000604#1 520907938 1066387385 24267063#0 -1066387390 -303127234 1067225801 135530868 161870606 1122672886 1117123985 1078551359 520281211#0 520281211#1 1067179855 1066387399#0 1066387399#1 1066387399#3"/>
+		<stop busStop="128" duration="5"/>
+		<stop busStop="1743" duration="5"/>
+		<stop busStop="1742" duration="5"/>
+		<stop busStop="912" duration="5"/>
+		<stop busStop="1208" duration="5"/>
+		<stop busStop="497" duration="5"/>
+    </vehicle>
+	<vehicle id="2_linha003" type="BUS" depart="1880">
+        <route edges="1055037545#0 1055037545#1 1118885030 161871532 130673481#0 130673481#1 130673481#2 523381463#1 1118885036 167515245 172903650 24267008 157520966#1 157520966#2 157520966#4 1117159562#0 1067232684 1117159561 41779467 608022305 27610322 521369420#0 1118930502 1118885056"/>
+		<stop busStop="1711" duration="5"/>
+		<stop busStop="1712" duration="5"/>
+		<stop busStop="148" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="900" duration="5"/>
+		<stop busStop="1244" duration="5"/>
+		<stop busStop="1705" duration="5"/>
+    </vehicle>
+	<vehicle id="1_linha004_1" type="BUS" depart="860">
+        <route edges="-1118885056 -1118930502 -211570877 116139661 521369419 521369418 521369416#0 521369416#1 303409704#0 303409704#1 303409704#2 303409704#3 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 161870605#0 518870778 1118885029"/>
+		<stop busStop="710" duration="5"/>
+		<stop busStop="69" duration="5"/>
+		<stop busStop="1336" duration="5"/>
+		<stop busStop="999" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="596" duration="5"/>
+    </vehicle>
+	<vehicle id="1_linha004_2" type="BUS" depart="2960">
+        <route edges="-1118885056 -1118930502 -211570877 116139661 521369419 521369418 521369416#0 521369416#1 303409704#0 303409704#1 303409704#2 303409704#3 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 161870605#0 518870778 1118885029"/>
+		<stop busStop="710" duration="5"/>
+		<stop busStop="69" duration="5"/>
+		<stop busStop="1336" duration="5"/>
+		<stop busStop="999" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="596" duration="5"/>
+    </vehicle>
+	<vehicle id="2_linha004" type="BUS" depart="2240">
+        <route edges="-1066387399#3 -1066387399#1 -1066387399#0 -1067179855 1066387398 24267122#0 24267122#1 450682083 303412620#0 303412620#1 135000702"/>
+		<stop busStop="498" duration="5"/>
+		<stop busStop="58" duration="5"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="136" duration="5"/>
+    </vehicle>
+	<vehicle id="3_linha004_1" type="BUS" depart="560">
+        <route edges="135001586#0 135001586#1 104203828 520907937 25329248 1066387386 1066387389 -135000604#1 -135000604#0 104203837#0 104203837#1 104203837#2 104203837#3 135000273 -32501221#1 -32501221#0 -211743270#1 -211743270#0 40284971 1118881989"/>
+		<stop busStop="624" duration="5"/>
+		<stop busStop="246" duration="5"/>
+		<stop busStop="1741" duration="5"/>
+		<stop busStop="1744" duration="5"/>
+		<stop busStop="686" duration="5"/>
+		<stop busStop="698" duration="5"/>
+    </vehicle>
+	<vehicle id="3_linha004_2" type="BUS" depart="2660">
+        <route edges="135001586#0 135001586#1 104203828 520907937 25329248 1066387386 1066387389 -135000604#1 -135000604#0 104203837#0 104203837#1 104203837#2 104203837#3 135000273 -32501221#1 -32501221#0 -211743270#1 -211743270#0 40284971 1118881989"/>
+		<stop busStop="624" duration="5"/>
+		<stop busStop="246" duration="5"/>
+		<stop busStop="1741" duration="5"/>
+		<stop busStop="1744" duration="5"/>
+		<stop busStop="686" duration="5"/>
+		<stop busStop="698" duration="5"/>
+    </vehicle>
+	<vehicle id="ida_linha011_1" type="BUS" depart="500">
+        <route edges="1066387397 24267122#0 24267122#1 450682083 520281210 135530868 161870606 1122672886 1117123985 1078551359 520281211#0 520281211#1 1067179855 1066387399#0 1066387399#1 1066387399#3"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="1208" duration="5"/>
+		<stop busStop="497" duration="5"/>
+    </vehicle>
+	<vehicle id="ida_linha011_2" type="BUS" depart="1700">
+        <route edges="1066387397 24267122#0 24267122#1 450682083 520281210 135530868 161870606 1122672886 1117123985 1078551359 520281211#0 520281211#1 1067179855 1066387399#0 1066387399#1 1066387399#3"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="1208" duration="5"/>
+		<stop busStop="497" duration="5"/>
+    </vehicle>
+	<vehicle id="ida_linha011_3" type="BUS" depart="2900">
+        <route edges="1066387397 24267122#0 24267122#1 450682083 520281210 135530868 161870606 1122672886 1117123985 1078551359 520281211#0 520281211#1 1067179855 1066387399#0 1066387399#1 1066387399#3"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="1208" duration="5"/>
+		<stop busStop="497" duration="5"/>
+    </vehicle>
+	<vehicle id="volta_linha011_1" type="BUS" depart="860">
+        <route edges="-1066387399#3 -1066387399#1 -1066387399#0 -1067179855 1066387398 24267122#0 24267122#1"/>
+		<stop busStop="498" duration="5"/>
+		<stop busStop="58" duration="5"/>
+		<stop busStop="794" duration="5"/>
+    </vehicle>
+	<vehicle id="volta_linha011_2" type="BUS" depart="2000">
+        <route edges="-1066387399#3 -1066387399#1 -1066387399#0 -1067179855 1066387398 24267122#0 24267122#1"/>
+		<stop busStop="498" duration="5"/>
+		<stop busStop="58" duration="5"/>
+		<stop busStop="794" duration="5"/>
+    </vehicle>
+	<vehicle id="volta_linha011_3" type="BUS" depart="3260">
+        <route edges="-1066387399#3 -1066387399#1 -1066387399#0 -1067179855 1066387398 24267122#0 24267122#1"/>
+		<stop busStop="498" duration="5"/>
+		<stop busStop="58" duration="5"/>
+		<stop busStop="794" duration="5"/>
+    </vehicle>
+	<vehicle id="1_linha012" type="BUS" depart="2300">
+        <route edges="518870787 518870786#1 24267008 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 161870605#0 518870778 1118885029"/>
+		<stop busStop="2" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="596" duration="5"/>
+    </vehicle>
+	<vehicle id="2_linha012" type="BUS" depart="1040">
+        <route edges="-1066387399#3 -1066387399#1 -1066387399#0 -1067179855 1066387398 24267122#0 24267122#1 450682083 520281210 135530868 161870606 1122672886 -1123366647 -24267088 161870608 450682081#0 450682081#1 1067179853#0 1067179853#1 1067179852 161870605#0 518870778 1055037544 1118885030 161871532 130673481#0 130673481#1 130673481#2 523381463#1 1118885036 167515245 172903650 518870784"/>
+		<stop busStop="498" duration="5"/>
+		<stop busStop="58" duration="5"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="596" duration="5"/>
+		<stop busStop="1712" duration="5"/>
+		<stop busStop="148" duration="5"/>
+    </vehicle>
+	<vehicle id="1_linha014" type="BUS" depart="500">
+        <route edges="518870787 518870786#1 24267008 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 161870605#0 518870778 1118885029"/>
+		<stop busStop="2" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="596" duration="5"/>
+    </vehicle>
+	<vehicle id="2_linha014" type="BUS" depart="3020">
+        <route edges="-1066387399#3 -1066387399#1 -1066387399#0 -1067179855 1066387398 24267122#0 24267122#1 450682083 520281210 135530868 161870606 1122672886 -1123366647 -24267088 161870608 450682081#0 450682081#1 1067179853#0 1067179853#1 1067179852 161870605#0 518870778 1055037544 1118885030 161871532 130673481#0 130673481#1 130673481#2 523381463#1 1118885036 167515245 172903650 518870784"/>
+		<stop busStop="498" duration="5"/>
+		<stop busStop="58" duration="5"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="596" duration="5"/>
+		<stop busStop="1712" duration="5"/>
+		<stop busStop="148" duration="5"/>
+    </vehicle>
+	<vehicle id="ida_linha021_1" type="BUS" depart="500">
+        <route edges="1066387397 24267122#0 24267122#1 450682083 24267065 303127234 41779525 41779526 32501101#1 32501101#2 104203815 135000899 520907937 -1118885051#1 -1118885051#0 -1118885052#1 -1118885052#0"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="476" duration="5"/>
+		<stop busStop="1337" duration="5"/>
+		<stop busStop="416" duration="5"/>
+    </vehicle>
+	<vehicle id="ida_linha021_2" type="BUS" depart="2300">
+        <route edges="1066387397 24267122#0 24267122#1 450682083 24267065 303127234 41779525 41779526 32501101#1 32501101#2 104203815 135000899 520907937 -1118885051#1 -1118885051#0 -1118885052#1 -1118885052#0"/>
+		<stop busStop="794" duration="5"/>
+		<stop busStop="476" duration="5"/>
+		<stop busStop="1337" duration="5"/>
+		<stop busStop="416" duration="5"/>
+    </vehicle>
+	<vehicle id="volta_linha021" type="BUS" depart="2120">
+        <route edges="1118885052#0 1118885052#1 1118885051#0 1118885051#1 25329248 1066387386 1066387389 520907938 1066387385 24267063#0 -1066387390 -303127234 1067225801 135530868 161870606 24267085"/>
+		<stop busStop="474" duration="5"/>
+		<stop busStop="246" duration="5"/>
+		<stop busStop="715" duration="5"/>
+    </vehicle>
+	<vehicle id="linha031_1" type="BUS" depart="1700">
+        <route edges="-1118885056 -1118930502 -211570877 116139661 521369419 521369418 521369416#0 521369416#1 303409704#0 303409704#1 303409704#2 303409704#3 521369415 525352728 1067179856#0 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082 525352726 1078551359 303127223 450682083 24267065 303127234 41779525 41779526 41779527#0 41779527#1 41779527#2"/>
+		<stop busStop="710" duration="5"/>
+		<stop busStop="69" duration="5"/>
+		<stop busStop="1336" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+		<stop busStop="476" duration="5"/>
+		<stop busStop="749" duration="5"/>
+		<stop busStop="1133" duration="5"/>
+    </vehicle>
+	<vehicle id="linha031_2" type="BUS" depart="3500">
+        <route edges="-1118885056 -1118930502 -211570877 116139661 521369419 521369418 521369416#0 521369416#1 303409704#0 303409704#1 303409704#2 303409704#3 521369415 525352728 1067179856#0 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082 525352726 1078551359 303127223 450682083 24267065 303127234 41779525 41779526 41779527#0 41779527#1 41779527#2"/>
+		<stop busStop="710" duration="5"/>
+		<stop busStop="69" duration="5"/>
+		<stop busStop="1336" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+		<stop busStop="476" duration="5"/>
+		<stop busStop="749" duration="5"/>
+		<stop busStop="1133" duration="5"/>
+    </vehicle>
+	<vehicle id="linha032_1" type="BUS" depart="860">
+        <route edges="135001586#0 135001586#1 104203828 520907937 25329248 1066387386 1066387389 520907938 1066387385 24267063#0 -1066387390 -303127234 1067225801 135530868 161870606 24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 1117159561 41779467 608022305 27610322 521369420#0 1118930502 1118885056"/>
+		<stop busStop="624" duration="5"/>
+		<stop busStop="246" duration="5"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="900" duration="5"/>
+		<stop busStop="1244" duration="5"/>
+		<stop busStop="1705" duration="5"/>
+    </vehicle>
+	<vehicle id="linha032_2" type="BUS" depart="2660">
+        <route edges="135001586#0 135001586#1 104203828 520907937 25329248 1066387386 1066387389 520907938 1066387385 24267063#0 -1066387390 -303127234 1067225801 135530868 161870606 24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 1117159561 41779467 608022305 27610322 521369420#0 1118930502 1118885056"/>
+		<stop busStop="624" duration="5"/>
+		<stop busStop="246" duration="5"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="900" duration="5"/>
+		<stop busStop="1244" duration="5"/>
+		<stop busStop="1705" duration="5"/>
+    </vehicle>
+	<vehicle id="linha041_1" type="BUS" depart="1400">
+        <route edges="24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="999" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+    </vehicle>
+	<vehicle id="linha041_2" type="BUS" depart="3200">
+        <route edges="24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="999" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+    </vehicle>
+	<vehicle id="linha042_1" type="BUS" depart="500">
+        <route edges="24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="999" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+    </vehicle>
+	<vehicle id="linha042_2" type="BUS" depart="2300">
+        <route edges="24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="999" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+    </vehicle>
+	<vehicle id="linha061" type="BUS" depart="1880">
+		<route edges="1118885052#0 1118885052#1 1118885051#0 1118885051#1 25329248 1066387386 1066387389 520907938 1066387385 24267063#0 -1066387390 -303127234 1067225801 135530868 161870606 24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 1117159561 41779467 608022305 521369417 521369419 186466799 20899781 1118885065 1118885066 1118885067 1118885068 1118885070#0"/>
+		<stop busStop="474" duration="5"/>
+		<stop busStop="246" duration="5"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="900" duration="5"/>
+		<stop busStop="1244" duration="5"/>
+		<stop busStop="635" duration="5"/>
+	</vehicle>
+	<vehicle id="linha062_1" type="BUS" depart="740">
+		<route edges="-1118885070#1 -1118885068 -1118885067 -1118885066 -1118885065 -20899781 186466797 521369416#0 521369416#1 303409704#0 303409704#1 303409704#2 303409704#3 521369415 525352728 1067179856#0 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082 525352726 1078551359 303127223 450682083 24267065 303127234 41779525 41779526 32501101#1 32501101#2 104203815 135000899 520907937 -1118885051#1 -1118885051#0 -1118885052#1 -1118885052#0"/>
+		<stop busStop="1525" duration="5"/>
+		<stop busStop="52" duration="5"/>
+		<stop busStop="69" duration="5"/>
+		<stop busStop="1336" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+		<stop busStop="476" duration="5"/>
+		<stop busStop="1337" duration="5"/>
+		<stop busStop="416" duration="5"/>
+	</vehicle>
+	<vehicle id="linha062_2" type="BUS" depart="2540">
+		<route edges="-1118885070#1 -1118885068 -1118885067 -1118885066 -1118885065 -20899781 186466797 521369416#0 521369416#1 303409704#0 303409704#1 303409704#2 303409704#3 521369415 525352728 1067179856#0 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082 525352726 1078551359 303127223 450682083 24267065 303127234 41779525 41779526 32501101#1 32501101#2 104203815 135000899 520907937 -1118885051#1 -1118885051#0 -1118885052#1 -1118885052#0"/>
+		<stop busStop="1525" duration="5"/>
+		<stop busStop="52" duration="5"/>
+		<stop busStop="69" duration="5"/>
+		<stop busStop="1336" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+		<stop busStop="476" duration="5"/>
+		<stop busStop="1337" duration="5"/>
+		<stop busStop="416" duration="5"/>
+	</vehicle>
+	<vehicle id="linha070" type="BUS" depart="1640">
+		<route edges="167512493 -1118885031#1 -1118885031#0 -167515248 -523381485#1 -523381485#0 130673481#0 130673481#1 130673481#2 523381463#1 1118885036 167515245 172903650 24267008 157520966#1 157520966#2 157520966#4 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 1117129345#0 1117129345#1 24266978 518870784"/>
+		<stop busStop="613" duration="5"/>
+		<stop busStop="494" duration="5"/>
+		<stop busStop="328" duration="5"/>
+		<stop busStop="148" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="770" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+	</vehicle>
+	<vehicle id="linha071" type="BUS" depart="3560">
+		<route edges="518870787 518870786#1 24267008 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 161870605#0 518870778 1055037544 1118885030 161871532 523381485#0 523381485#1 167515248 1118885031#0 1118885031#1 -167512493"/>
+		<stop busStop="2" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="596" duration="5"/>
+		<stop busStop="1712" duration="5"/>
+		<stop busStop="271" duration="5"/>
+		<stop busStop="555" duration="5"/>
+		<stop busStop="677" duration="5"/>
+	</vehicle>
+	<vehicle id="linha072" type="BUS" depart="2780">
+		<route edges="167512493 -1118885031#1 -1118885031#0 -167515248 -523381485#1 -523381485#0 130673481#0 130673481#1 130673481#2 523381463#1 1118885036 167515245 172903650 24267008 157520966#1 157520966#2 157520966#4 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 1117129345#0 1117129345#1 24266978 518870784"/>
+		<stop busStop="613" duration="5"/>
+		<stop busStop="494" duration="5"/>
+		<stop busStop="328" duration="5"/>
+		<stop busStop="148" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="833" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+	</vehicle>
+	<vehicle id="linha073" type="BUS" depart="1460">
+		<route edges="518870787 518870786#1 24267008 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 161870605#0 518870778 1055037544 1118885030 161871532 523381485#0 523381485#1 167515248 1118885031#0 1118885031#1 -167512493"/>
+		<stop busStop="2" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="596" duration="5"/>
+		<stop busStop="1712" duration="5"/>
+		<stop busStop="271" duration="5"/>
+		<stop busStop="555" duration="5"/>
+		<stop busStop="677" duration="5"/>
+	</vehicle>
+	<vehicle id="ida_linha081" type="BUS" depart="1700">
+		<route edges="521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 1117129345#0 1117129345#1 24266978 518870784"/>
+		<stop busStop="999" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+	</vehicle>
+	<vehicle id="volta_linha081_1" type="BUS" depart="1160">
+		<route edges="518870787 518870786#1 24267008 157520966#1 157520966#2 157520966#4 1117159562#0 1067232684 525352729 521369415 521369414"/>
+		<stop busStop="2" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+	</vehicle>
+	<vehicle id="volta_linha081_2" type="BUS" depart="2960">
+		<route edges="518870787 518870786#1 24267008 157520966#1 157520966#2 157520966#4 1117159562#0 1067232684 525352729 521369415 521369414"/>
+		<stop busStop="2" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+	</vehicle>
+	<vehicle id="linha082" type="BUS" depart="2300">
+        <route edges="24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="770" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+    </vehicle>
+	<vehicle id="linha083" type="BUS" depart="500">
+        <route edges="24267085 104203857#0 104203857#1 1123714556 450682080 41736416#1 41736416#2 525352735 608022302 41779466 608022304 24267056#0 24267056#1 1117159562#0 1067232684 525352729 521369415 521369414 1110251952#0 521377145 1117129342 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 24267012 157520966#1 157520966#2 157520966#4 1067232685#0 518870782#0 518870782#1 24267075 24267081 161870607#1 518870780 -1067179852 -1067179853#2 -1067179853#0 -450682081#1 -450682081#0 -161870608 450682082"/>
+		<stop busStop="715" duration="5"/>
+		<stop busStop="1342" duration="5"/>
+		<stop busStop="770" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="843" duration="5"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="51" duration="5"/>
+		<stop busStop="756" duration="5"/>
+		<stop busStop="769" duration="5"/>
+    </vehicle>
+	<vehicle id="ida_linha170" type="BUS" depart="620">
+        <route edges="172903650 24267008 157520966#1 157520966#2 24267178 211816963#0 1110251952#0 521377145 303127225 -1118885077 -41779480 1118930500#0 1118930500#1 41779481 -1118885065 -20899781 186466797 521369416#0 303409700 27610322 521369420#0 1118930502 1118885056"/>
+		<stop busStop="554" duration="5"/>
+		<stop busStop="618" duration="5"/>
+		<stop busStop="1185" duration="5"/>
+		<stop busStop="52" duration="5"/>
+		<stop busStop="1705" duration="5"/>
+    </vehicle>
+	<vehicle id="volta_linha170" type="BUS" depart="2960">
+        <route edges="-1118885056 -1118930502 -211570877 116139661 521369419 186466799 20899781 1118885065 1118885066 1118885067 1118885068 24267161 24267164 1118930501 41779480 1118885077 186466821 521377147 521377146#0 521377146#1 1117129344 521377144 24266991 1117129348 1117129347 1117129345#0 1117129345#1 24266978 518870784"/>
+		<stop busStop="710" duration="5"/>
+		<stop busStop="635" duration="5"/>
+		<stop busStop="132" duration="5"/>
+		<stop busStop="801" duration="5"/>
+		<stop busStop="843" duration="5"/>
+    </vehicle>
+</additional>
