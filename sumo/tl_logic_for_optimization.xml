@@ -1,0 +1,69 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="10217234860" type="static" programID="1" offset="0">
+        <phase duration="17.263858183400387" state="Gr"/>
+        <phase duration="3"  state="Gr"/>
+        <phase duration="3"  state="Gr"/>
+        <phase duration="29.092655244244167" state="Gr"/>
+        <phase duration="3"  state="Gr"/>
+        <phase duration="1.0044606178764506" state="rG"/>
+        <phase duration="3" state="yG"/>
+        <phase duration="12"  state="rG"/>
+    </tlLogic>
+    <tlLogic id="1738225389" type="static" programID="2" offset="0">
+        <phase duration="27.723560515473622" state="GGGGr"/>
+		<phase duration="3"  state="yyGGr"/>
+        <phase duration="3"  state="rrGGr"/>
+		<phase duration="12" state="rrGGG"/>
+		<phase duration="3"  state="rrGGr"/>
+    </tlLogic>
+    <tlLogic id="262730836" type="static" programID="3" offset="0">
+        <phase duration="17.348586061728497" state="GGr"/>
+        <phase duration="3"  state="yyr"/>
+        <phase duration="3"  state="rrr"/>
+        <phase duration="12" state="rrG"/>
+        <phase duration="3"  state="rrr"/>
+    </tlLogic>
+    <tlLogic id="303185099" type="static" programID="4" offset="0">
+        <phase duration="12.79097033264175" state="GGr"/>
+        <phase duration="3"  state="yyr"/>
+		<phase duration="3"  state="rrr"/>
+        <phase duration="12" state="rrG"/>
+        <phase duration="3"  state="rrr"/>
+    </tlLogic>
+    <tlLogic id="GS_485963521" type="static" programID="5" offset="0">
+        <phase duration="16.47393149499613" state="GrrrrG"/>
+        <phase duration="3"  state="yrrrrG"/>
+        <phase duration="3"  state="rrrrrr"/>
+        <phase duration="22.01385262613092" state="rGGrrr"/>
+        <phase duration="3"  state="ryyrrr"/>
+        <phase duration="3"  state="rrrrrr"/>
+        <phase duration="12" state="rrrGGG"/>
+        <phase duration="3"  state="rrrrrr"/>
+    </tlLogic>
+    <tlLogic id="GS_cluster_1488495937_262732207" type="static" programID="6" offset="0">
+        <phase duration="6.723479741867409" state="GGGGrrrrrrrrrrrrGrGGr"/>
+		<phase duration="3"  state="yyyyrrrrrrrrrrrrGrGGr"/>
+		<phase duration="3"  state="rrrrrrrrrrrrrrrrrrGGr"/>
+        <phase duration="4.601205195983114" state="rrrrGGGrrrrrrrrrrGGGr"/>
+		<phase duration="3"  state="rrrryyyrrrrrrrrrrGGGr"/>
+		<phase duration="3"  state="rrrrrrrrrrrrrrrrrrrGr"/>
+        <phase duration="8.264148243729165" state="rrrrrrrGGGGGrrrrGrrGr"/>
+		<phase duration="3"  state="rrrrrrryyyyyrrrrGrrGr"/>
+		<phase duration="3"  state="rrrrrrrrrrrrrrrrGrrrr"/>
+        <phase duration="14.476868354678862" state="rrrrrrrrrrrrGGGrGrGrG"/>
+		<phase duration="3"  state="rrrrrrrrrrrryyyrGrGrG"/>
+		<phase duration="3"  state="rrrrrrrrrrrrrrrrGrGrr"/>
+		<phase duration="12" state="rrrrrrrrrrrrrrrGGGGGG"/>
+		<phase duration="3"  state="rrrrrrrrrrrrrrrrGrGGr"/>
+    </tlLogic>
+    <tlLogic id="joinedS_0" type="static" programID="7" offset="0">
+        <phase duration="17.263858183400387" state="GGGrrrrrrGG"/>
+        <phase duration="3"  state="yyyrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrrr"/>
+        <phase duration="29.092655244244167" state="rrrGGGGrGrr"/>
+        <phase duration="3"  state="rrryyyGrGrr"/>
+        <phase duration="1.0044606178764506" state="rrrrrrGGGGr"/>
+        <phase duration="3" state="rrrrrryGGGr"/>
+        <phase duration="12"  state="rrrrrrrGGGG"/>
+    </tlLogic>
+</additional>
