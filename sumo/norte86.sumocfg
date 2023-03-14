@@ -3,7 +3,7 @@
 		<net-file value="norte86.net.xml" />
 		
 		
-		<additional-files value="norte86.add.xml,tl_logic_real.xml,_guimabus_16h-17h.xml" />
+		<additional-files value="norte86.add.xml,tl_logic_for_optimization.xml,_guimabus_16h-17h.xml" />
 	</input>
 	<output>
 		<statistic-output value="outputTEMPOS.xml"/>
