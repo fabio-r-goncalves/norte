@@ -1,4 +1,4 @@
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<additional>
 
 	<busStop id="715" lane="24267085_0" startPos="60" endPos="70" lines="1"/>
     <busStop id="769" lane="450682082_0" startPos="35" endPos="45" lines="1"/>
