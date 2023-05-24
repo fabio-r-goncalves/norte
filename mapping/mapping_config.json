@@ -238,15 +238,6 @@
             "route": "10",
             "targetFlow": 5,
             "typeDistribution": "cityDistribution"
-        }
-        ,
-        {
-            "startingTime": 1.0,
-            "lanes":[1],
-            "maxTime": 4500,
-            "route": "7",
-            "targetFlow": 0,
-            "typeDistribution": "cityDistribution"
         },
         {
             "startingTime": 1.0,
