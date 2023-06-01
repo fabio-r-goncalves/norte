@@ -1,4 +1,4 @@
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<additional>
     <tlLogic id="10217234860" type="static" programID="1" offset="0">
         <phase duration="17.263858183400387" state="Gr"/>
         <phase duration="3"  state="Gr"/>
@@ -34,7 +34,7 @@
         <phase duration="16.47393149499613" state="GrrrrG"/>
         <phase duration="3"  state="yrrrrG"/>
         <phase duration="3"  state="rrrrrr"/>
-        <phase duration="22.01385262613092" state="rGGrrr"/>
+        <phase duration="27.01385262613092" state="rGGrrr"/>
         <phase duration="3"  state="ryyrrr"/>
         <phase duration="3"  state="rrrrrr"/>
         <phase duration="12" state="rrrGGG"/>
