@@ -19,34 +19,23 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
     private long stopped_time;
     private long stop_time;
     private final int startTime = 500;
+    
 
     @Override
     public void onShutdown() {
         
-
-        try {
-            FileWriter fileWriter = FileWriter.getInstance();
-            fileWriter.writeToFileVehicle(getOperatingSystem().getId() + ","
-                                                + getOperatingSystem().getNavigationModule().getCurrentRoute().getId() + ","
-                                                + getOperatingSystem().getVehicleData().getVehicleConsumptions().getAllConsumptions().getFuel() + "," 
-                                                + getOperatingSystem().getVehicleData().getVehicleEmissions().getAllEmissions().getCo() + ","
-                                                + getOperatingSystem().getVehicleData().getVehicleEmissions().getAllEmissions().getCo2() + ","
-                                                + getOperatingSystem().getVehicleData().getVehicleEmissions().getAllEmissions().getHc() + ","
-                                                + getOperatingSystem().getVehicleData().getVehicleEmissions().getAllEmissions().getNox() + ","
-                                                + getOperatingSystem().getVehicleData().getVehicleEmissions().getAllEmissions().getPmx() + ","
-                                                + getOperatingSystem().getVehicleData().getDistanceDriven() + ","
-                                                + stopped_time
-                                                );
-                                                            
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+       
 
         VehicleSimDataStore dataStore = VehicleSimDataStore.getInstance();
-        
+        VehicleSimData data;
+        if((data = dataStore.getVehicleSimData().get(getOperatingSystem().getId())) != null ){
+            if(getOperatingSystem().getNavigationModule().getCurrentRoute().getLength() >= data.getDistanceDriven())
+            data.setEndRoute(true);
+        }
+         
         
         if(getOperatingSystem().getSimulationTime() >= Long.parseLong("4100000000000")){
+            
         //if(getOperatingSystem().getSimulationTime() >= Long.parseLong("500000000000")){    
             if(!dataStore.isStored()){
                 dataStore.setStored(true);
@@ -58,8 +47,12 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                 double pmx = 0;
                 double stopedTime = 0;
                 double stopedTimeMax = 0;
+                double distanceDrien = 0;
+                int endTrips = 0;
+                int notEnded = 0;
                 
                 HashMap<String, VehicleSimData> simDataMap = dataStore.getInstance().getVehicleSimData();
+                
                 for (Map.Entry<String, VehicleSimData> entry: simDataMap.entrySet()) {
                     fuel = entry.getValue().getFuel() + fuel;
                     co = entry.getValue().getCo() + co;
@@ -68,11 +61,35 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                     nox = entry.getValue().getNox() + nox;
                     pmx = entry.getValue().getPmx() + pmx;
                     stopedTime = entry.getValue().getStopTime() + stopedTime;
+                    distanceDrien = entry.getValue().getDistanceDriven() + distanceDrien;
+                    if(entry.getValue().isEndRoute()){
+                        endTrips = endTrips + 1;
+                    }else{
+                        notEnded = notEnded + 1;
+                    }
                     if(entry.getValue().getStopTime() > stopedTimeMax){
                         stopedTimeMax = entry.getValue().getStopTime();
                     }
-                    
+
+                    try {
+                        FileWriter.getInstance().writeToFileVehicle(entry.getKey() + ","
+                                                    + entry.getValue().getRoute()+ ","
+                                                    + entry.getValue().getFuel() + "," 
+                                                    + entry.getValue().getCo() + ","
+                                                    + entry.getValue().getCo2() + ","
+                                                    + entry.getValue().getHc() + ","
+                                                    + entry.getValue().getNox() + ","
+                                                    + entry.getValue().getPmx() + ","
+                                                    + entry.getValue().getDistanceDriven() + ","
+                                                    + entry.getValue().getStopTime() + ","
+                                                    + entry.getValue().isEndRoute()
+                                                    );
+                    } catch (IOException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
                 }
+                
 
                 fuel = fuel / simDataMap.size();
                 co = co / simDataMap.size();
@@ -81,6 +98,7 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                 nox = nox /simDataMap.size();
                 pmx = pmx / simDataMap.size();
                 stopedTime = stopedTime / simDataMap.size();
+                distanceDrien = distanceDrien / simDataMap.size();
                 
                 
                 
@@ -94,8 +112,17 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
                                         nox  + "," +
                                         pmx  + "," +
                                         stopedTime + "," +
-                                        stopedTimeMax
+                                        stopedTimeMax + "," + 
+                                        distanceDrien + "," + 
+                                        endTrips + "," +
+                                        notEnded
                                         );
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+                try {
+                    FileWriter.getInstance().closeVehicleFile();
                 } catch (IOException e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();
@@ -118,8 +145,10 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
 
     @Override
     public void onVehicleUpdated(VehicleData arg0, VehicleData arg1) {
+
         
-        if(getOperatingSystem().getSimulationTime() / TIME.SECOND > startTime){   
+        
+        if(getOperatingSystem().getSimulationTime() >= Long.parseLong("500000000000") && getOperatingSystem().getSimulationTime() < Long.parseLong("4100000000000")){
             if(getOperatingSystem().getVehicleData().getSpeed() == (double)0.0){
                 if(stop_time == -1){
                     stop_time = getOperatingSystem().getSimulationTime();
@@ -137,7 +166,13 @@ public class TestVehicleApp extends AbstractApplication<VehicleOperatingSystem> 
             VehicleSimDataStore dataStore = VehicleSimDataStore.getInstance();
             VehicleSimData data = new VehicleSimData();
             if((getOperatingSystem().getNavigationModule().getCurrentRoute().getLength() - (getOperatingSystem().getNavigationModule().getCurrentRoute().getLength() / 10)) <= getOperatingSystem().getVehicleData().getDistanceDriven()){
-                data.vehicleDatatoSimData(getOperatingSystem().getVehicleData().getVehicleEmissions(), stopped_time, getOperatingSystem().getVehicleData().getVehicleConsumptions().getAllConsumptions().getFuel());
+                data.vehicleDatatoSimData(
+                    getOperatingSystem().getVehicleData().getVehicleEmissions(), 
+                    stopped_time, 
+                    getOperatingSystem().getVehicleData().getVehicleConsumptions().getAllConsumptions().getFuel(),
+                    getOperatingSystem().getNavigationModule().getVehicleData().getDistanceDriven(),
+                    getOperatingSystem().getNavigationModule().getCurrentRoute().getId()
+                    );
                 dataStore.addVehicleSimData(data, getOperatingSystem().getId());
             }
         }

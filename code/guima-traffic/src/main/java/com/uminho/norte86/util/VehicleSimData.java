@@ -10,10 +10,12 @@ public class VehicleSimData {
     private double pmx;
     private double nox;
     private double stopTime;
-    
+    private double distanceDriven;
+    private String route;
+    private boolean endRoute;
 
 
-    public VehicleSimData(double fuel, double co2, double co, double hc, double pmx, double nox, double stopTime) {
+    public VehicleSimData(double fuel, double co2, double co, double hc, double pmx, double nox, double stopTime, double distanceDriven, String route) {
         this.fuel = fuel;
         this.co2 = co2;
         this.co = co;
@@ -21,7 +23,9 @@ public class VehicleSimData {
         this.pmx = pmx;
         this.nox = nox;
         this.stopTime = stopTime;
-        
+        this.distanceDriven = distanceDriven;
+        this.route = route;
+        this.endRoute = false;
     }
 
     
@@ -103,10 +107,10 @@ public class VehicleSimData {
         this.stopTime = stopTime;
     }
 
-
+    
   
 
-    public void vehicleDatatoSimData(VehicleEmissions emissions, double stopTime, double fuel){
+    public void vehicleDatatoSimData(VehicleEmissions emissions, double stopTime, double fuel, double distanceDriven, String route){
         this.setCo(emissions.getAllEmissions().getCo());
         this.setCo2(emissions.getAllEmissions().getCo2());
         this.setHc(emissions.getAllEmissions().getHc());
@@ -114,8 +118,53 @@ public class VehicleSimData {
         this.setPmx(emissions.getAllEmissions().getPmx());
         this.setFuel(fuel);
         this.setStopTime(stopTime);
-        
+        this.setDistanceDriven(distanceDriven);
+        this.setRoute(route);
     }
+
+
+
+
+    public double getDistanceDriven() {
+        return distanceDriven;
+    }
+
+
+
+
+    public void setDistanceDriven(double distanceDriven) {
+        this.distanceDriven = distanceDriven;
+    }
+
+
+
+
+    public String getRoute() {
+        return route;
+    }
+
+
+
+
+    public void setRoute(String route) {
+        this.route = route;
+    }
+
+
+
+
+    public boolean isEndRoute() {
+        return endRoute;
+    }
+
+
+
+
+    public void setEndRoute(boolean endRoute) {
+        this.endRoute = endRoute;
+    }
+
+    
 
     
 }
