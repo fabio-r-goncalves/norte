@@ -47,11 +47,14 @@ public class TestTrafficManagementApp extends ConfigurableApplication<TrafficMan
         long nextEventTime = currentTime + 1 * TIME.SECOND;
         final Event nextEvent = new Event(nextEventTime, this);
         getOs().getEventManager().addEvent(nextEvent);
+        /*
+
         System.out.println("time: "+getOperatingSystem().getSimulationTime());
         for (Map.Entry<String,Integer> set: inductionLoopVehicles.entrySet()) {
             System.out.println(set.getKey() + ": " + set.getValue());    
         }
         System.out.println("\n\n");
+        */
     }
 
     @Override

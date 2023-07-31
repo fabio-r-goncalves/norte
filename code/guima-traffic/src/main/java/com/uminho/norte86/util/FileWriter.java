@@ -35,9 +35,15 @@ public class FileWriter {
     public void writeToFile(String csvLine) throws IOException{
         printWriterDetector.write(csvLine+"\n");
     }
+    
 
     public void writeToFileVehicle(String csvLine) throws IOException{
         printWriterVehicle.write(csvLine+"\n");
+        printWriterAverage.flush();
+    }
+
+    public void closeVehicleFile(){
+        printWriterVehicle.close();
     }
 
     public void writeToFileAverage(String csvLine) throws IOException{
